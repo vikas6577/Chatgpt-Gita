@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  color: rgb(30, 30, 65);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainclass {
+  margin: 0;
+  /* background-color: #ff9933; */
+  /* background-color: rgb(242, 240, 240); */
+  background: transparent;
+  background-image: url("image 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.submainclass {
+  padding-top: 30px;
+}
+.question h2 {
+  padding-top: 45px;
+}
+.inputBox {
+  padding: 4px;
+  font-size: 20px;
+  resize: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 55%;
+  height: 200px;
+  display: block;
+  margin-top: 18px;
+  border: 2px solid black;
+  background-color: transparent;
+  /* color: rgb(30, 30, 65); */
+  color: rgb(0, 0, 0);
+}
+.inputBox ::placeholder{
+  color: rgb(0, 0, 0);
+}
+.appButton {
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 30%;
+  height: 40px;
+  font-size: 25px;
+  border: 2px solid black;
+  background-color: rgb(187, 193, 149);
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+}
+.appButton:hover {
+  background-color: rgb(174, 179, 138);
+}
+.result {
+  width: fit-content;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  margin-top: 15px;
+}
